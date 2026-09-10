@@ -28,10 +28,10 @@ return await Pulumi.Deployment.RunAsync(static () =>
     // var envr= config.Require("env");
     
     // create a resource group 
-    var resourcegrp = new ResourceGroup("Heer", new ResourceGroupArgs
-    {
-        Location = "EastUS"
-    }
+    // var resourcegrp = new ResourceGroup("Heer", new ResourceGroupArgs
+    // {
+    //     Location = "EastUS"
+    // }
     // ,new CustomResourceOptions{
     //     Aliases = 
     //     {
@@ -42,7 +42,7 @@ return await Pulumi.Deployment.RunAsync(static () =>
     //     } ,
     //     // Protect = true
     // }
-    );
+    // );
 
     // using the components 
     // for (int i=0 ; i <= 5 ; i++)
@@ -52,8 +52,8 @@ return await Pulumi.Deployment.RunAsync(static () =>
        "heer",
         new StorageComponentArgs
         {
-            ResourceGroupName = resourcegrp.Name,
-            Location = resourcegrp.Location,
+            ResourceGroupName = "Heer",
+            Location = "EastUS",
             SkuName = SkuName.Standard_LRS,
             Kind = Kind.StorageV2
         });
