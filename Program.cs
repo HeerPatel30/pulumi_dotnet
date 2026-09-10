@@ -49,7 +49,7 @@ return await Pulumi.Deployment.RunAsync(static () =>
     // {
 
  var storage = new StorageComponent(
-       "heer",
+       "testheer",
         new StorageComponentArgs
         {
             ResourceGroupName = "Heer",

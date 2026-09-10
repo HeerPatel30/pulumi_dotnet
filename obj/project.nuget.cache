@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4RJlsYFU4gk=",
+  "dgSpecHash": "QYiLQ54FdK4=",
   "success": true,
-  "projectFilePath": "c:\\C#\\basic.csproj",
+  "projectFilePath": "C:\\C#\\basic.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HeerPatel\\.nuget\\packages\\ben.demystifier\\0.4.1\\ben.demystifier.0.4.1.nupkg.sha512",
     "C:\\Users\\HeerPatel\\.nuget\\packages\\google.protobuf\\3.24.0\\google.protobuf.3.24.0.nupkg.sha512",
@@ -43,9 +43,9 @@
       "code": "NU1902",
       "level": "Warning",
       "message": "Package 'OpenTelemetry.Api' 1.9.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-g94r-2vxg-569j",
-      "projectPath": "c:\\C#\\basic.csproj",
+      "projectPath": "C:\\C#\\basic.csproj",
       "warningLevel": 1,
-      "filePath": "c:\\C#\\basic.csproj",
+      "filePath": "C:\\C#\\basic.csproj",
       "libraryId": "OpenTelemetry.Api",
       "targetGraphs": [
         "net10.0"
@@ -55,9 +55,9 @@
       "code": "NU1902",
       "level": "Warning",
       "message": "Package 'OpenTelemetry.Exporter.OpenTelemetryProtocol' 1.9.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-4625-4j76-fww9",
-      "projectPath": "c:\\C#\\basic.csproj",
+      "projectPath": "C:\\C#\\basic.csproj",
       "warningLevel": 1,
-      "filePath": "c:\\C#\\basic.csproj",
+      "filePath": "C:\\C#\\basic.csproj",
       "libraryId": "OpenTelemetry.Exporter.OpenTelemetryProtocol",
       "targetGraphs": [
         "net10.0"

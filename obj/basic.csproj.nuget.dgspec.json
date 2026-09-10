@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\C#\\basic.csproj": {}
+    "C:\\C#\\basic.csproj": {}
   },
   "projects": {
-    "c:\\C#\\basic.csproj": {
+    "C:\\C#\\basic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\C#\\basic.csproj",
+        "projectUniqueName": "C:\\C#\\basic.csproj",
         "projectName": "basic",
-        "projectPath": "c:\\C#\\basic.csproj",
+        "projectPath": "C:\\C#\\basic.csproj",
         "packagesPath": "C:\\Users\\HeerPatel\\.nuget\\packages\\",
-        "outputPath": "c:\\C#\\obj\\",
+        "outputPath": "C:\\C#\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HeerPatel\\AppData\\Roaming\\NuGet\\NuGet.Config"

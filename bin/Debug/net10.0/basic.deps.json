@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v10.0": {
       "basic/1.0.0": {
         "dependencies": {
-          "Pulumi": "3.113.1",
+          "Pulumi": "3.113.2",
           "Pulumi.AzureNative": "3.27.0"
         },
         "runtime": {
@@ -145,7 +145,7 @@
           }
         }
       },
-      "Pulumi/3.113.1": {
+      "Pulumi/3.113.2": {
         "dependencies": {
           "Ben.Demystifier": "0.4.1",
           "Grpc.AspNetCore.Server": "2.63.0",
@@ -162,14 +162,14 @@
         },
         "runtime": {
           "lib/net6.0/Pulumi.dll": {
-            "assemblyVersion": "3.113.1.0",
-            "fileVersion": "3.113.1.0"
+            "assemblyVersion": "3.113.2.0",
+            "fileVersion": "3.113.2.0"
           }
         }
       },
       "Pulumi.AzureNative/3.27.0": {
         "dependencies": {
-          "Pulumi": "3.113.1"
+          "Pulumi": "3.113.2"
         },
         "runtime": {
           "lib/net6.0/Pulumi.AzureNative.dll": {
@@ -323,12 +323,12 @@
       "path": "opentelemetry.exporter.opentelemetryprotocol/1.9.0",
       "hashPath": "opentelemetry.exporter.opentelemetryprotocol.1.9.0.nupkg.sha512"
     },
-    "Pulumi/3.113.1": {
+    "Pulumi/3.113.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-mY4Ruz7fvpfbI0aK/YCP7x7fHYygwGQ8sfTWiAnfdhRlu8QphcW5AWa4tHqr5uQoJsBv60BVswvgObajXDn1Tg==",
-      "path": "pulumi/3.113.1",
-      "hashPath": "pulumi.3.113.1.nupkg.sha512"
+      "sha512": "sha512-ZO0eVW//jHpO5vSyxLilo60pOk1jQeK4+okAOA5ShzSNPqgMV81JQr1r0lh9F7Dxm9zZZN/Xb1UpQ6EHYzWXOw==",
+      "path": "pulumi/3.113.2",
+      "hashPath": "pulumi.3.113.2.nupkg.sha512"
     },
     "Pulumi.AzureNative/3.27.0": {
       "type": "package",
