@@ -56,9 +56,48 @@ return await Pulumi.Deployment.RunAsync(static () =>
             Location = "EastUS",
             SkuName = SkuName.Standard_LRS,
             Kind = Kind.StorageV2
+        }, new ComponentResourceOptions
+        {
+            Aliases = 
+            {
+                new Alias
+                {
+                    Name = "testheer"
+                } 
+            } ,
+        });
+ var container = new ContainerComponent(
+        "testheer-container",
+        new ContainerComponentArgs
+        {
+            ResourceGroupName = "Heer",
+            StorageAccountName = storage.StorageAccountName,
+            ContainerName = "testheer-container",
+            PublicAccess = PublicAccess.None
+        }, new ComponentResourceOptions
+        {
+            Parent = storage,
+            Aliases = 
+            {
+                new Alias
+                {
+                    Name = "testheer-container"
+                } 
+            } ,
         });
     // }
-    // }
+    
+
+    var blob = new BlobComponent(
+        "testheer-blob",
+        new BlobComponentArgs
+        {
+            ResourceGroupName = "Heer",
+            StorageAccountName = "testheeraeb1041b",
+            ContainerName = "testheer-container",
+            BlobName = "testheer-blob",
+            Source = new FileAsset("C:\\Users\\HeerPatel\\Pictures\\Screenshots\\Screenshot 2026-07-15 183859.png")
+        });
 
 //    create  storage account 
         // var storageAccount = new StorageAccount("heer", new StorageAccountArgs
